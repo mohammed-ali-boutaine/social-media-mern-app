@@ -1,0 +1,9 @@
+.horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    scrollbar-width: none; /* Firefox */
+  }
+  
+  .horizontal-scroll::-webkit-scrollbar {
+    display: none; /* WebKit-based browsers */
+  }
